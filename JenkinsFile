@@ -10,12 +10,16 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                bat "mvn compile"
+	dir("Krissel__RestfulAndSoapWS") {
+		bat "mvn compile"
+	}
             }
         }
         stage('Test') {
             steps {
-               bat "mvn test"
+	dir("Krissel__RestfulAndSoapWS") {
+		bat "mvn test"
+	}
             }
         }
         stage('Result') {
