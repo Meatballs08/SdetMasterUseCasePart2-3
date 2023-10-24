@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8034" started-at="2023-10-24T12:40:58 SGT" finished-at="2023-10-24T12:41:06 SGT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="8034" started-at="2023-10-24T12:40:58 SGT" finished-at="2023-10-24T12:41:06 SGT">
+      <class name="cucumberOptions.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="setUpClass" is-config="true" duration-ms="266" started-at="2023-10-24T12:40:58 SGT" finished-at="2023-10-24T12:40:58 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14dc85a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="1712" started-at="2023-10-24T12:40:58 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:00 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Soap Requests to Calculator site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="894" started-at="2023-10-24T12:41:00 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:01 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Soap Requests to Calculator site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="1651" started-at="2023-10-24T12:41:01 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:02 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Rest Assured Requests to Json Place Holder site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["JsonPlaceHolder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="908" started-at="2023-10-24T12:41:02 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:03 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Rest Assured Requests to Json Place Holder site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["JsonPlaceHolder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="824" started-at="2023-10-24T12:41:03 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:04 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Rest Assured Requests to Json Place Holder site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["JsonPlaceHolder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="910" started-at="2023-10-24T12:41:04 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:05 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Rest Assured Requests to Json Place Holder site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["JsonPlaceHolder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="runScenario" duration-ms="822" started-at="2023-10-24T12:41:05 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-24T12:41:06 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Status Codes of Rest Assured Requests to Json Place Holder site."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["JsonPlaceHolder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.CucumberRunner@c8afef]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2023-10-24T12:41:06 SGT" finished-at="2023-10-24T12:41:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
