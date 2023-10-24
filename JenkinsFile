@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clean') {
             steps {
-                dir("C:\Users\krissell\AppData\Local\Jenkins\.jenkins\workspace\SdetMasterUseCasePart2_3\Krissel__RestfulAndSoapWS") {
+                dir("Krissel__RestfulAndSoapWS") {
 		bat "mvn clean"
 	}
             }
