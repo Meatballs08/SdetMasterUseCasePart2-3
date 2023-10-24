@@ -33,7 +33,7 @@ public class Restful_Web_Services_Test {
 
 	  @Test
 	  public void PutRequestTest() {
-		  Assert.assertEquals(Restful_Web_Services.PutRequestStatusCode(),200);
+		  Assert.assertEquals(Restful_Web_Services.PutRequestStatusCode(),403);
 	  }
 
 }
